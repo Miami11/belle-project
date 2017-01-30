@@ -15,7 +15,7 @@ ul{
 li{
     float: right;
 
-    margin-bottom: 10px 0px;
+    margin-bottom: 10px;
 }
 li:before{
     content:'';
@@ -53,16 +53,16 @@ li a:hover {
     background-size: cover;
 }
 
-.B {
+.BannerText {
    margin: auto;
     width: 500px;
-    color: #a79ab4;
+    color: #ffffff;
     font-size: 40px;
     text-shadow: 2px 2px 4px ;
     padding-top: 150px;
 
 }
-.B h2{
+.BannerText h2{
     /*background-color: hsla(290,60%,60%,0.2);*/
     color: aliceblue;
     font-size: 20px;
@@ -85,6 +85,194 @@ li a:hover {
 
 }
 .Btn:hover{
-    background-color: #64555c;
+    background-color: #ff3f64;
     transition: .5s;
+}
+.welcome {
+    margin: auto;
+    text-align: center;
+}
+.welcomeGroup{
+    margin: auto;
+    text-align: center;
+
+}
+.Ptitle {
+    color: crimson;
+}
+
+.Stitle {
+    color: black;
+    font-size: 30px;
+}
+
+.Pnumber{
+    color: #6b7386;
+    font-size: 40px;
+    font-weight: bold;
+}
+.Psub {
+    color: silver;
+    font-size: 20px;
+}
+.price {
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid gray;
+    background-color: transparent;
+    width: 258px;
+    height: 400px;
+}
+.smalltext {
+    font-size: 15px;
+    color: #a79ab4;
+}
+
+.itemGroup .item {
+    width: 50%;
+    float: left;
+    min-height: 400px;
+
+}
+
+.itemGroup .pix{
+    background-image: url(assets/images/girl.jpg);
+    width: 480px;
+    height: 400px;
+    background-size: cover;
+}
+.itemGroup .txt{
+    text-align: left;
+    margin: auto    ;
+    line-height: 25px;
+    padding-top: 50px;
+}
+.itemGroup p{
+    width: 350px;
+    height: 300px;
+}
+
+.tableBtn {
+    width: 150px;
+    height: 50px;
+    border: 3px solid #c5256d;
+    background-color: transparent;
+    display: inline-block;
+    border-radius: 50px;
+    margin-top: 50px;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+
+}
+.tableBtn:hover {
+    background-color: #c5256d;
+    color: aliceblue;
+}
+
+.pplimg img{
+    width: 258px;
+    height: 240px;
+    vertical-align: top;
+}
+
+.Sstitle {
+    color: #555555;
+    font-size: 20px;
+}
+.environment {
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+
+.place {
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 50px;
+    display: inline-block;
+}
+.massage {
+    width: 0;
+    height: 0;
+    border: 90px solid transparent;
+    border-bottom-color: rgba(255,200,0,.5);
+    position: relative;
+    top: -25px;
+}
+
+.massage:after {
+    content:'';
+    position:absolute;
+    left: -90px;
+    top: 90px;
+    width: 0;
+    height: 0;
+    border: 90px solid transparent;
+    border-top-color:rgba(255,200,0,.5);
+}
+.service {
+    text-align: center;
+    margin: auto;
+}
+.content {
+    text-align: center;
+    display: inline-block;
+}
+
+.box1{
+    background-image: url(assets/images/massage.png) ;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+.box2{
+    background-image: url(assets/images/bath.png) ;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+.box3{
+    background-image: url(assets/images/use.png) ;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+.back {
+    background-image: url(assets/images/how-to-spa-main-image.jpg);
+    width: 960px;
+    height: 550px;
+    background-size: cover;
+}
+
+.bottom {
+    background-color: #c5256d;
+    color: white;
+    text-align: center;
+    margin: auto;
+    float: left;
+    width: 960px;
+
+}
+a {
+    text-decoration: none;
+    color: silver;
+}
+
+.footerContent {
+    float: left;
+    width: 550px;
+    height: 200px;
+}
+.footerText {
+    float: left;
+}
+
+.Tbox{
+    width: 450px;
+    padding: 10px;
 }
