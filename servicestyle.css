@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.container {
+    width: 960px;
+    margin: auto;
+    position: relative;
+}
+
+body {
+
+    font-family:'Open Sans', Helvetica, Arial, sans-serif;
+    color: #222;
+}
+.nav{
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+
+.bannerPix {
+	width: 100%;
+	height: 550px;
+	display:inline-block;
+    background-size: cover;
+	background-image: url(assets/images/branch/banner.jpg);
+}
+.header {
+    background-color: rgba(255, 255, 255, .8);
+}
+
+.main{
+margin-top: -20px;
+
+}
+nav ul{
+	width: 608px;
+	margin:auto;
+	list-style:none;
+	padding: 30px 0;
+    height: 28px;
+    background-color: transparent;
+}
+
+
+.front {
+    text-align: center;
+    margin: auto;
+}
+nav li{
+    float: right;
+    margin-bottom: 8px;
+}
+
+nav li a {
+    /*display: inline-block;*/
+    text-decoration: none;
+    width: 500px;
+    padding: 0px 40px;
+    color: #222222;
+    text-align: center;
+}
+nav li a:hover{
+    color: #c54c82;
+}
+
+.clear {
+    clear: both;
+}
+.bar{
+    width: 960px;
+}
+.boxGroup{
+
+    text-align: center;
+    margin: auto;
+}
+
+.boxGroup .box{
+    width: 50%;
+    float: left;
+    min-height: 350px;
+
+}
+.bar{
+    width: 100%;
+    height: 30px;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+}
+.boxGroup .pix1{
+    background-image: url(assets/images/branch/stonespa.jpg);
+    width: 480px;
+    height: 350px;
+}
+.people{
+    width: 960px;
+    height: 650px;
+    background-color: rgba(100,0,100,.3);
+}
+.footer{
+    width: 960px;
+    height: 150px;
+    background-color: rgba(0,100,100,.3);
+}
