@@ -19,29 +19,69 @@ body {
 
 
 .textHr {
-    color: #666;
-    margin-bottom: 50px ;
 
+    position: relative;
+    width: 105px;
+    height: 100px;
+    text-align: center;
+    left: 325px;
 }
-.textHr:before{
-    content:'';
-    /*height: 2px;*/
-    width: 80px;
+
+.textHr:before,
+.textHr:after {
+    content: "";
     position: absolute;
-    border: 1px solid #c54c82;
-    top:170px;
-    right: 438px;
-
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border: 10px solid #f4aeba;
+    -moz-border-radius: 50px 50px 0 50px;
+    border-radius: 50px 50px 0 50px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
 }
+
+
+.textHr:after {
+    left: auto;
+    right: 0;
+    -moz-border-radius: 50px 50px 50px 0;
+    border-radius: 50px 50px 50px 0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+
+
+
+
+/*.textHr:before{*/
+    /*content:'';*/
+    /*!*height: 2px;*!*/
+    /*width: 80px;*/
+    /*position: absolute;*/
+    /*border: 1px solid #c54c82;*/
+    /*top:170px;*/
+    /*right: 438px;*/
+
+/*}*/
 
 .Btitle {
-    font-size: 50px;
-    margin: 20px;
+    font-size: 45px;
+    margin: 10px;
     color: #3e3e3e;
 }
 
 .bookingSize {
-    width: 700px;
+    width: 750px;
 }
 
 .header {
@@ -86,7 +126,7 @@ nav li a:hover{
 
 
 .banner {
-    background-image: url(assets/images/spabanner.jpg);
+    background-image: url(assets/images/spagirl.png);
     width: 100%;
     height: 560px;
     background-size: cover;
@@ -125,7 +165,7 @@ nav li a:hover{
     display: block;
     border-radius: 50px;
     margin-top: 50px;
-    color: #222222;
+    color: #fff;
     font-size: 20px;
     text-align: center;
     line-height: 50px;
@@ -140,6 +180,10 @@ nav li a:hover{
 .welcome {
     margin: auto;
     text-align: center;
+    padding-top: 150px;
+    height: 700px;
+    display: inline-block;
+    width: 960px;
 }
 .welcomeGroup{
     margin: auto;
@@ -148,6 +192,7 @@ nav li a:hover{
 }
 .Ptitle {
     color: #c54c82;
+
 }
 
 .Stitle {
@@ -161,32 +206,70 @@ nav li a:hover{
     font-weight: bold;
 }
 .Psub {
+
     color: silver;
     font-size: 20px;
+    line-height: 400px;
 }
+/*.pplimg img{*/
+    /*width: 290px;*/
+    /*height: 240px;*/
+    /*vertical-align: top;*/
+    /*padding-bottom: 20px;*/
+
+/*}*/
 .price {
     float: left;
-    margin: 10px;
-    padding: 20px;
-    border: 1px solid gray;
+    margin: 0px;
+    /*padding: 50px 10px;*/
+    /*border: 1px solid gray;*/
     background-color: transparent;
-    width: 258px;
+    width: 294px;
     height: 400px;
+    display: inline-block;
+    position: relative;
+    border: 1px solid #c54c82;
+    margin: 10px;
 }
+.price a{
+    text-decoration: none;
+}
+.bb{
+    width: 294px;
+    height: 400px;
+    background-color: rgba(0,0,0,.5);
+    color:#fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.price:hover .bb{
+    display: block;
+}
+
 .smalltext {
     font-size: 15px;
     color: #a79a9a;
+    padding-bottom: 20px;
 }
-
+.smalltext2 {
+    font-size: 15px;
+    color: #a79a9a;
+    padding: 20px;
+}
 .itemGroup .item {
     width: 50%;
     float: left;
     min-height: 400px;
 
 }
+.include{
+    background-color: #FDFDCB;
+}
 
 .itemGroup .pix{
-    background-image: url(assets/images/girl.jpg);
+    background-image: url(assets/images/ingredient.jpg);
     width: 480px;
     height: 400px;
     background-size: cover;
@@ -195,7 +278,13 @@ nav li a:hover{
     text-align: left;
     margin: auto    ;
     line-height: 25px;
-    padding-top: 50px;
+
+    background-color: #c54c82;
+
+}
+.halfText{
+    padding: 20px 50px;
+    color: floralwhite;
 }
 .itemGroup p{
     width: 350px;
@@ -210,7 +299,7 @@ nav li a:hover{
     display: inline-block;
     border-radius: 50px;
     margin-top: 50px;
-    color: #000000;
+    color: #fff;
     font-size: 20px;
     text-align: center;
     line-height: 50px;
@@ -222,11 +311,7 @@ nav li a:hover{
     color: #fff;
 }
 
-.pplimg img{
-    width: 258px;
-    height: 240px;
-    vertical-align: top;
-}
+
 
 .Sstitle {
     color: #555555;
@@ -245,11 +330,16 @@ nav li a:hover{
     padding-top: 50px;
     margin-top: 50px;
     display: inline-block;
+    margin: auto;
+    width: 960px;
+}
+.place h5{
+    padding: 30px;
 }
 .massage {
     width: 0;
     height: 0;
-    border: 90px solid transparent;
+    border: 60px solid transparent;
     border-bottom-color: rgba(245, 252, 158, .3);
     position: relative;
     top: -25px;
@@ -258,11 +348,11 @@ nav li a:hover{
 .massage:after {
     content:'';
     position:absolute;
-    left: -90px;
-    top: 90px;
+    left: -60px;
+    top: 60px;
     width: 0;
     height: 0;
-    border: 90px solid transparent;
+    border: 60px solid transparent;
     border-top-color:rgba(245, 252, 158,.3);
 }
 .service {
@@ -290,31 +380,33 @@ nav li a:hover{
 
 }
 .box3{
-    background-image: url(assets/images/use.png) ;
+    background-image: url(assets/images/bodycareok.png) ;
     background-repeat: no-repeat;
     background-position: bottom;
 
 }
-.back {
-    width: 100%;
-    height: 450px;
+.footerText {
+
     padding: 40px 0 40px 0;
-    background: #fd8983;
-    background: -moz-linear-gradient(-45deg, #fd8983 0%, #fcd00e 100%);
-    background: -webkit-linear-gradient(-45deg, #fd8983 0%, #fcd00e 100%);
-    background: linear-gradient(135deg, #fd8983 0%, #fcd00e 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );
-    color: whitesmoke ;
+
 }
 
 
+
 .bottom {
-    background-color: #fddd8a;
-    color: #fd9191;
+    width: 100%;
+    height: 200px;
+    background: #ff3f64;
+    background: -moz-linear-gradient(-45deg, #ff3f64 0%, #fcd00e 100%);
+    background: -webkit-linear-gradient(-45deg, #ff3f64 0%, #fcd00e 100%);
+    background: linear-gradient(135deg, #ff3f64 0%, #fcd00e 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );
+    color: whitesmoke ;
     text-align: center;
     margin: auto;
     float: left;
     width: 100%;
+    padding: 30px;
 
 }
 a {
