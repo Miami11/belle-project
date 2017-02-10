@@ -14,6 +14,55 @@ body {
     font-family:'Open Sans', Helvetica, Arial, sans-serif;
     color: #222;
 }
+
+
+.service{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+.BannerText {
+    margin: auto;
+    width: 500px;
+    color: #fff;
+    font-size: 40px;
+    /*text-shadow: 2px 2px 4px ;*/
+    padding-top: 150px;
+
+}
+
+
+
+.BannerText h2{
+    /*background-color: hsla(290,60%,60%,0.2);*/
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px #64555c;
+    padding-top: 64px;
+
+
+}
+.BannerText h1 {
+    height: 32px;
+}
+
+
+
+.Ptitle {
+    color: #c54c82;
+
+}
+
+.Stitle {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+
+
+
 .nav{
     text-align: center;
     margin: auto;
@@ -22,7 +71,7 @@ body {
 
 
 .bannerPix {
-	width: 100%;
+	width: 960px;
 	height: 550px;
 	display:inline-block;
     background-size: cover;
@@ -82,29 +131,155 @@ nav li a:hover{
 .boxGroup .box{
     width: 50%;
     float: left;
-    min-height: 350px;
+
 
 }
 .bar{
     width: 100%;
-    height: 30px;
-    background-color: rgba(0,0,0,.5);
-    color: #fff;
+    height: 80px;
+    background-color: white;
+    color: #222222;
     text-align: center;
-    line-height: 30px;
+    line-height: 80px;
 }
 .boxGroup .pix1{
-    background-image: url(assets/images/branch/stonespa.jpg);
+    background-image: url(assets/images/stonegirl.jpg);
     width: 480px;
     height: 350px;
+    background-size: cover;
 }
+
+.boxGroup .pix2{
+    background-image: url(assets/images/branch/massage.jpg);
+    width: 480px;
+    height: 350px;
+    background-size: cover;
+}
+
+.boxGroup .pix3{
+    background-image: url(assets/images/branch/footcare.jpg);
+    width: 480px;
+    height: 350px;
+    background-size: cover;
+}
+
+.boxGroup .pix4{
+    background-image: url(assets/images/branch/nailcare.jpg);
+    width: 480px;
+    height: 350px;
+    background-size: cover;
+}
+
+
 .people{
     width: 960px;
-    height: 650px;
-    background-color: rgba(100,0,100,.3);
+    height: 350px;
+    background-image: url(assets/images/branch/pool.jpg);
 }
 .footer{
     width: 960px;
     height: 150px;
     background-color: rgba(0,100,100,.3);
+
 }
+.AboutPix{
+    width: 100%;
+    height: 550px;
+    display:inline-block;
+    background-size: cover;
+    background-image: url(assets/images/branch/spa_at_beach.jpg);
+}
+
+
+.Sbtn {
+    width: 80px;
+    height: 32px;
+    border: 3px solid #c54c82;
+    background-color: transparent;
+    display: inline-block;
+    border-radius: 50px;
+    margin-top: 50px;
+    color: #222;
+    font-size: 8px;
+    text-align: center;
+    line-height: 30px;
+    transition: .5s;
+
+}
+.Sbtn:hover {
+    background-color: #c54c82;
+    color: #fff;
+}
+
+.tt1{
+
+    color: #222222;
+}
+
+h2{
+    padding: 20px 0;
+}
+.xstext {
+    color: #a79a9a;
+
+}
+
+.Stext{
+    font-size: 8px;
+    width: 200px;
+    padding-top: 10px;
+}
+
+.Text1 {
+    padding-top: 15px;
+    text-align: left;
+    margin: auto;
+    line-height: 22px;
+}
+
+.Text2{
+    text-align: center;
+    padding-top: 17px;
+
+}
+
+.textHr {
+
+    position: relative;
+    width: 105px;
+    height: 100px;
+    text-align: center;
+    left: 200px;
+}
+
+.textHr:before,
+.textHr:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border: 10px solid #f4aeba;
+    -moz-border-radius: 50px 50px 0 50px;
+    border-radius: 50px 50px 0 50px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+
+.textHr:after {
+    left: auto;
+    right: 0;
+    -moz-border-radius: 50px 50px 50px 0;
+    border-radius: 50px 50px 50px 0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+

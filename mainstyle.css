@@ -127,9 +127,16 @@ nav li a:hover{
 
 .banner {
     background-image: url(assets/images/spagirl.png);
-    width: 100%;
-    height: 560px;
+    width: 960px;
+    height: 550px;
     background-size: cover;
+}
+
+.flower:before{
+    /*background-image: url(assets/images/jasmine.png);*/
+
+    content: url(assets/images/jasmine.png);
+
 }
 
 .bookingtitle {
@@ -180,7 +187,7 @@ nav li a:hover{
 .welcome {
     margin: auto;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 100px;
     height: 700px;
     display: inline-block;
     width: 960px;
@@ -209,15 +216,15 @@ nav li a:hover{
 
     color: silver;
     font-size: 20px;
-    line-height: 400px;
+    line-height: 240px;
 }
-/*.pplimg img{*/
-    /*width: 290px;*/
-    /*height: 240px;*/
-    /*vertical-align: top;*/
-    /*padding-bottom: 20px;*/
+.pplimg {
+    width: 294px;
+    height: 240px;
+    vertical-align: top;
+    border-bottom: 1px solid #c54c82;
 
-/*}*/
+}
 .price {
     float: left;
     margin: 0px;
@@ -231,12 +238,13 @@ nav li a:hover{
     border: 1px solid #c54c82;
     margin: 10px;
 }
+
 .price a{
     text-decoration: none;
 }
 .bb{
     width: 294px;
-    height: 400px;
+    height: 240px;
     background-color: rgba(0,0,0,.5);
     color:#fff;
     position: absolute;
@@ -247,12 +255,27 @@ nav li a:hover{
 .price:hover .bb{
     display: block;
 }
+.price:hover {
+    background-color: #c54c82;
+    color: #ffffff;
+
+}
+
 
 .smalltext {
     font-size: 15px;
     color: #a79a9a;
     padding-bottom: 20px;
 }
+
+.price:hover .tableGroup h4{
+    color: floralwhite;
+}
+
+.price:hover .tableGroup h2{
+    color:#fff;
+}
+
 .smalltext2 {
     font-size: 15px;
     color: #a79a9a;
@@ -264,6 +287,8 @@ nav li a:hover{
     min-height: 400px;
 
 }
+
+
 .include{
     background-color: #FDFDCB;
 }
@@ -278,7 +303,6 @@ nav li a:hover{
     text-align: left;
     margin: auto    ;
     line-height: 25px;
-
     background-color: #c54c82;
 
 }
@@ -324,11 +348,13 @@ nav li a:hover{
 }
 
 
-
+.place .textHr {
+    left: 428px;
+}
 .place {
+    margin: auto;
     text-align: center;
-    padding-top: 50px;
-    margin-top: 50px;
+
     display: inline-block;
     margin: auto;
     width: 960px;
@@ -395,7 +421,7 @@ nav li a:hover{
 
 .bottom {
     width: 100%;
-    height: 200px;
+    height: 235px;
     background: #ff3f64;
     background: -moz-linear-gradient(-45deg, #ff3f64 0%, #fcd00e 100%);
     background: -webkit-linear-gradient(-45deg, #ff3f64 0%, #fcd00e 100%);
@@ -405,8 +431,7 @@ nav li a:hover{
     text-align: center;
     margin: auto;
     float: left;
-    width: 100%;
-    padding: 30px;
+    padding: 30px 0;
 
 }
 a {
@@ -416,8 +441,16 @@ a {
 
 .footerContent {
     float: left;
-    width: 550px;
+    width: 380px;
     height: 200px;
+    text-align: center;
+    
+}
+
+.half {
+    width: 50%;
+    float: left;
+
 }
 .footerText {
     float: left;
