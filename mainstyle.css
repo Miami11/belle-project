@@ -12,7 +12,7 @@
 
 body {
 
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-family: '微軟正黑體','Lucida Grande', Helvetica, Arial, sans-serif;
     color: #222;
 }
 
@@ -167,7 +167,7 @@ nav li a:hover{
 .Btn{
     width: 150px;
     height: 50px;
-    border: 3px solid #c54c82;
+    border: 3px solid #ffffff;
     background-color: transparent;
     display: block;
     border-radius: 50px;
@@ -177,7 +177,28 @@ nav li a:hover{
     text-align: center;
     line-height: 50px;
     text-shadow: none;
+    top:-30px;
 
+}
+.item .SBtn{
+    width: 150px;
+    height: 50px;
+    border: 3px solid #ffffff;
+    background-color: transparent;
+    display: block;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    text-shadow: none;
+    margin: auto;
+}
+
+.item .SBtn:hover{
+    background-color: #c54c82;
+    transition: .5s;
+    color: #fff;
 }
 .Btn:hover{
     background-color: #c54c82;
@@ -214,7 +235,7 @@ nav li a:hover{
 }
 .Psub {
 
-    color: silver;
+    color: #ffffff;
     font-size: 20px;
     line-height: 240px;
 }
@@ -222,42 +243,48 @@ nav li a:hover{
     width: 294px;
     height: 240px;
     vertical-align: top;
-    border-bottom: 1px solid #c54c82;
+    /*border-bottom: 1px solid #c54c82;*/
+    overflow: hidden;
 
 }
+
+
+
 .price {
     float: left;
     margin: 0px;
-    /*padding: 50px 10px;*/
-    /*border: 1px solid gray;*/
     background-color: transparent;
     width: 294px;
     height: 400px;
     display: inline-block;
     position: relative;
-    border: 1px solid #c54c82;
+    border: 1px solid transparent;
     margin: 10px;
+    overflow: hidden;
 }
 
 .price a{
     text-decoration: none;
 }
 .bb{
-    width: 294px;
-    height: 240px;
-    background-color: rgba(0,0,0,.5);
-    color:#fff;
+    width: 275px;
+    height: 221px;
+    background-color: rgba(0,0,0,.1);
+    border: 1px solid #ffffff;
     position: absolute;
-    top: 0;
+    top: 0px;
     left: 0;
+    bottom:0;
+    right: 0;
+    margin: 10px auto;
     display: none;
 }
 .price:hover .bb{
     display: block;
 }
 .price:hover {
-    background-color: #c54c82;
-    color: #ffffff;
+    background-color: rgba(0,0,0,.1);
+
 
 }
 
@@ -269,12 +296,10 @@ nav li a:hover{
 }
 
 .price:hover .tableGroup h4{
-    color: floralwhite;
+    color: #c54c82;
 }
 
-.price:hover .tableGroup h2{
-    color:#fff;
-}
+
 
 .smalltext2 {
     font-size: 15px;
@@ -303,16 +328,19 @@ nav li a:hover{
     text-align: left;
     margin: auto    ;
     line-height: 25px;
-    background-color: #c54c82;
+    background-color: #873459;
+    background-size: cover;
+    color: #222222;
 
 }
 .halfText{
-    padding: 20px 50px;
-    color: floralwhite;
+    padding: 20px 70px;
+    color: #ffffff;
+    height: 252px;
 }
 .itemGroup p{
     width: 350px;
-    height: 300px;
+    height: 242px;
 }
 
 .tableBtn {
@@ -422,10 +450,10 @@ nav li a:hover{
 .bottom {
     width: 100%;
     height: 235px;
-    background: #ff3f64;
-    background: -moz-linear-gradient(-45deg, #ff3f64 0%, #fcd00e 100%);
-    background: -webkit-linear-gradient(-45deg, #ff3f64 0%, #fcd00e 100%);
-    background: linear-gradient(135deg, #ff3f64 0%, #fcd00e 100%);
+    background: #873459;
+    background: -moz-linear-gradient(-45deg, #873459 0%, #fddd8a 100%);
+    background: -webkit-linear-gradient(-45deg, #873459 0%, #fddd8a 100%);
+    background: linear-gradient(135deg, #873459 0%, #fddd8a 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );
     color: whitesmoke ;
     text-align: center;
@@ -478,33 +506,29 @@ a {
     text-align: center;
     line-height: 300px;
 }
+.halfText span{
+    font-weight: bold;
+    padding: 10px 0;
 
-.pic1{
-    background-image: url(assets/images/flower.png);
+}
+.icon{
+    text-align: center;
+    margin: 20px auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 960px;
+
+
+}
+.icon:hover {
+    color: #c54c82;
 }
 
-.pic2{
-    background-image: url(assets/images/gallery1.jpeg)
+.icon p{
+    padding: 50px;
+    float: left;
+    width: 10px;
+    height: 10px;
 }
-
-.pic3{
-    background-image: url(assets/images/footwash.jpg);
-}
-
-.pic4{
-    background-image: url(assets/images/belle_logo.png);
-    background-repeat: no-repeat;
-}
-
-.pic5{
-    background-image: url(assets/images/gallery_mask.jpg);
-}
-
-.pic6{
-    background-image: url(assets/images/gallery_img01.jpg);
-}
-
-.pic7{
-    background-color: #9efcb4;
-}
-
