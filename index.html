@@ -6,11 +6,12 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>welcome Belle Spa</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-    <link rel="stylesheet" href="mainstyle.css">
-    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/mainstyle.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
 </head>
+
 <body>
 
 <!--======banner======-->
@@ -21,7 +22,7 @@
                 <nav>
                     <ul class="front">
                         <li><a href="#">聯絡</a></li>
-                        <li><a href="#">環境</a></li>
+                        <li><a href="environment.html">環境</a></li>
                         <li class="main"><a href="#"><img src="assets/images/belle_logo.png" alt="" width="80px"
                                                           height="50px"></a></li>
                         <li><a href="service.html">服務</a></li>
@@ -32,10 +33,10 @@
 
 
             <div class="BannerText">
-                <h1 class="animated fadeIn">Belle Spa</h1>
-                <h2 class="animated fadeIn">Sessions of Relaxation </h2>
+                <h1 class="animated fadeInUp">Belle Spa</h1>
+                <h2 class="animated fadeInUp">Sessions of Relaxation </h2>
 
-                <div class="Btn animated bounceIn">Book now
+                <div class="Btn animated zoomIn">Book now
                 </div>
             </div>
 
@@ -59,41 +60,43 @@
             <div class="textHr"></div>
         </div>
 
-            <div class="price table1">
-                <a href="#">
-                    <div class="pplimg"><img class="pplimg" src="assets/images/gallery_img01.jpg" >
+        <div id="introduce">
+
+            <div id="introduce_item_0" class="item-col3 table1">
+                <a href="service.html">
+                    <div class="pixFrame"><img class="pplimg" src="assets/images/pplspa.jpg">
                     </div>
                     <div class="tableGroup">
-                    <h4 class="Sstitle"><br>Belle 精選</h4>
-                    <h2 class="smalltext"><br>悅椿精華系列Spa護理配套，爲您的身、心、靈帶來無限放鬆和活
+                        <h4 class="Sstitle"><br>Belle 精選</h4>
+                        <h2 class="smalltext"><br>悅椿精華系列Spa護理配套，爲您的身、心、靈帶來無限放鬆和活
 
-                        <span class="Psub bb">more&nbsp+</span></h2></div>
+                            <span class="Psub bb">more&nbsp+</span></h2></div>
                 </a>
             </div>
 
-            <div class="price table2">
+            <div id="introduce_item_1" class="item-col3 table2">
                 <a href="#">
-                    <div class="pplimg"><img class="pplimg" src="assets/images/outside.jpg" alt="" ></div>
+                    <div class="pixFrame"><img class="pplimg" src="assets/images/house.jpg" alt=""></div>
                     <div class="tableGroup">
-                    <h4 class="Sstitle flower"><br>環境介紹</h4>
-                    <h2 class="smalltext"><br>沉浸於愉悅的美顏護理中，令您的肌膚煥然新生，光彩照人。每款美顏護理包括舒緩的肩部按摩
+                        <h4 class="Sstitle"><br>Belle 環境</h4>
+                        <h2 class="smalltext"><br>沉浸於愉悅的美顏護理中，令您的肌膚煥然新生，光彩照人。每款美顏護理包括舒緩的肩部按摩
 
-                        <span class="Psub bb">more&nbsp+</span></h2></div>
+                            <span class="Psub bb">more&nbsp+</span></h2></div>
 
                 </a>
             </div>
-            <div class="price table3">
+            <div id="introduce_item_2" class="item-col3 table3">
                 <a href="#">
-                    <div class="pplimg"><img class="pplimg" src="assets/images/imaginetowel.jpg"></div>
-                   <div class="tableGroup">
-                    <h4 class="Sstitle"><br>關於我們</h4>
-                    <h2 class="smalltext"><br>Spa各式按摩呵護全身, 緩解肌肉緊張, 令您精神煥發、活力無限。
-                        <span class="Psub bb">more&nbsp+</span></h2></div>
+                    <div class="pixFrame"><img class="pplimg" src="assets/images/oil2.jpg"></div>
+                    <div class="tableGroup">
+                        <h4 class="Sstitle"><br>Belle 嚴選</h4>
+                        <h2 class="smalltext"><br>純粹天然的花果及香料調製成不同功效的敷料 .Spa各式按摩呵護全身, 緩解肌肉緊張, 令您精神煥發、活力無限。
+                            <span class="Psub bb">more&nbsp+</span></h2></div>
 
                 </a>
             </div>
 
-
+        </div>
     </div>
 
 
@@ -103,20 +106,20 @@
 
 <!--======environment======-->
 <div class="container environment">
-    <div class="place">
-
+    <div id="element-waypoint" class="place">
 
         <div class="itemGroup">
             <div class="item txt">
 
 
                 <p class="halfText">
-                    <span>加入我們! </span><br>Belle Spa擅於以純粹天然的花果及香料調製成不同功效的敷料，並以健康自然的元素融合觀、聽、聞、觸、嚐等感覺，五感合一臻於藝術境界，體驗前所未有的身心靈Spa！
+                    <span>加入我們! </span><br>Belle
+                    Spa擅於以純粹天然的花果及香料調製成不同功效的敷料，並以健康自然的元素融合觀、聽、聞、觸、嚐等感覺，五感合一臻於藝術境界，體驗前所未有的身心靈Spa！
                     奢華東方Spa的開創者。<br>
 
                     Belle Spa 讓身心靈在其中煥發新生活力。崇尚純粹的手法和技藝，而非借助高科技的儀器，運用天然草藥和香料來詮釋傳統亞式療法。
                 </p>
-                <div class="SBtn">more&nbsp+</div>
+                <div id="SBtn" class="SBtn">more&nbsp+</div>
             </div>
             <!--<div class="tableBtn">more&nbsp&nbsp+</div>-->
             <div class="item pix">
@@ -125,100 +128,173 @@
         </div>
 
     </div>
+
+</div>
+
+<!--====expert====-->
+
+
+<div class="container booking">
+    <div class="expert">
+        <div class="bookingtitle">
+            <!--<div class="hrpic"><img src="assets/images/hr.png" alt=""></div>-->
+            <h5 class="Ptitle">WSPECIALISTS</h5>
+            <h2 class="Btitle">專家團隊</h2>
+        </div>
+        <div class="textHr"></div>
+
+        <div id="expert">
+            <div id="expert_item_0" class="item-col3 table1">
+
+                <div class="pixFrame2"><img class="pplimg" src="assets/images/expertgigi.jpg">
+                </div>
+                <div class="tableGroup">
+                    <h4 class="Sstitle"><br>Sera<span class="xstext">/學院長</span></h4>
+                    <h2 class="smalltext"><br>作爲亞洲領先的Spa運營商以及熱帶花園Spa概念的先鋒，Belle學院特別重視護療師的培訓及發展。
+
+                    </h2></div>
+
+            </div>
+
+            <div id="expert_item_1" class="item-col3 table2">
+
+                <div class="pixFrame2"><img class="pplimg" src="assets/images/expertb.jpg" alt=""></div>
+                <div class="tableGroup">
+                    <h4 class="Sstitle"><br>Lily<span class="xstext">/護理長</span></h4>
+                    <h2 class="smalltext"><br>Belle挑選護療師時還會考慮工作態度及服務意識。其他重要的標準還包括對於工作的熱情、開發自我潛能的意願以及服務爲先的態度。
+
+                    </h2></div>
+
+
+            </div>
+            <div id="expert_item_2" class="item-col3 table3">
+
+                <div class="pixFrame2"><img class="pplimg" src="assets/images/expert4.jpg"></div>
+                <div class="tableGroup">
+                    <h4 class="Sstitle"><br>Mimi<span class="xstext">/培訓師</span></h4>
+                    <h2 class="smalltext"><br>培訓项目涵蓋了Spa護療的全方面，包括人體解剖學知識、重要的穴位、傳统及現代的按摩技藝、適用於不同體重的不同技法。
+                    </h2></div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
     <div class="clear"></div>
 </div>
 
 
-<!--&lt;!&ndash;====price====&ndash;&g offer 少了inline block-->
-<!--<div class="container booking">-->
-    <!--<div class="place">-->
-        <!--<div class="textHr"></div>-->
-        <!--<h2>What we can offer</h2>-->
-        <!--<div>Every facet of daily life is aligned with the purpose of nurturing, health,-->
-        <!--harmony, and spiritual growth and provides a complete experiential education in holistic living.-->
-        <!--</div>-->
-        <!--<div class="welcomeGroup">-->
-        <!--<div class="price table">-->
-        <!--<h5 class="Ptitle">Basic Plan</h5>-->
-        <!--<h4 class="Stitle">Relax & Rejuvenatea</h4>-->
-        <!--<h2 class="Pnumber">$495 <span class="Psub">/mo</span></h2>-->
-        <!--<div class="tableBtn">more&nbsp&nbsp+</div>-->
-        <!--</div>-->
-        <!--<div class="price table">-->
-        <!--<h5 class="Ptitle">Basic Plan</h5>-->
-        <!--<h4 class="Stitle">Relax & Rejuvenatea</h4>-->
-        <!--<h2 class="Pnumber">$495 <span class="Psub">/mo</span></h2>-->
-        <!--<div class="tableBtn">more&nbsp&nbsp+</div>-->
-        <!--</div>-->
-        <!--<div class="price table">-->
-        <!--<h5 class="Ptitle">Basic Plan</h5>-->
-        <!--<h4 class="Stitle">Relax & Rejuvenatea</h4>-->
-        <!--<h2 class="Pnumber">$495 <span class="Psub">/mo</span></h2>-->
-        <!--<div class="tableBtn">more&nbsp&nbsp+</div>-->
-        <!--</div>-->
-
-        <!--</div>-->
-        <!--</div>-->
-        <!--<div class="clear"></div>-->
-        <!--</div>-->
-    <!--</div>-->
-<!--</div>-->
-
-<!--&lt;!&ndash;======service======&ndash;&gt;-->
-<!--<div class="service">-->
-    <!--<div class="place back">-->
-
-
-    <!--</div>-->
-<!--</div>-->
 <!--======footer======-->
-<div class="container service">
-    <div class="bottom container">
-        <div class="footerContent item txt">
-            <h2>BELLE SPA</h2>
-            <div class="halfText">
-                護療師均爲泰國普吉島Spa護療學院（2001年5月成立）及之後成立的印尼民丹島Spa護療學院的畢業生。資深的培訓師也爲大中國與環球各個悅榕Spa及悅椿Spa提供專業高強度的嚴格培訓，務求在集團環球業務不斷擴展的同時，繼續爲賓客提供至尊無上的優質服務。
-            </div>
+<div class="container ad">
+    <div class="bottom">
+
+        <div class="massageGroup">
+
+            <h2>尊享至上禮遇</h2>
+
+            <h3>了解更多療程照片</h3>
+            <div class="tableBtn"><a href="service.html">more&nbsp+ <span class="bb"></span></a></div>
         </div>
 
-        <!--<div class="footerText">-->
-        <!--<h5>about salon</h5>-->
-
-        <!--</div>-->
-        <div class="massageGroup item pix">
-            <h2>OUR SERVICE</h2>
-            <div class="content box1">
-                <h3>MASSAGE</h3>
-                <div class="massage">
-                    <!--<img src="assets/images/bath.png" alt  ="">-->
-                </div>
-            </div>
-            <div class="content box2">
-                <h3>BATH</h3>
-                <div class="massage">
-                </div>
-            </div>
-            <div class="content box3">
-                <h3>BODY CARE</h3>
-                <div class="massage">
-                </div>
-            </div>
-
-        </div>
     </div>
 
     <div class="clear"></div>
 </div>
-
+<!--====footer====-->
 <div class="container footer">
-<div class="icon">
-    <a href=""> <p class="fa fa-facebook"></p></a>
-    <a href="">  <p class="fa fa-google-plus" aria-hidden="true"></p></a>
-    <a href=""> <p class="fa fa-twitter" aria-hidden="true"></p></a>
+    <div class="contacts">
+
+        <div class="item-col3">
+            <div>
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <div><span>地址</span></div>
+                <div>桃園市中壢區中大路300號</div>
+            </div>
+        </div>
+        <div class="item-col3">
+            <div>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <div><span>電話</span></div>
+                <div>03-4227151</div>
+            </div>
+
+        </div>
+        <div class="item-col3">
+            <div>
+                <i class="fa fa-fax" aria-hidden="true"></i>
+                <div><span>傳真</span></div>
+                <div> 03-4226062</div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="icon">
+        <a href=""><p class="fa fa-facebook"></p></a>
+        <a href=""><p class="fa fa-google-plus" aria-hidden="true"></p></a>
+        <a href=""><p class="fa fa-twitter" aria-hidden="true"></p></a>
+    </div>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+
+<script>
+
+    new Waypoint({
+        element: document.getElementById('element-waypoint'),
+        handler: function (direction) {
+            //notify(this.element.id + ' triggers at ' + this.triggerPoint)
+            var item = document.getElementById("SBtn");
+            item.className += " animated";
+            item.className += " zoomIn";
+
+        },
+        offset: '75%'
+    })
+
+    new Waypoint({
+        element: document.getElementById('introduce'),
+        handler: function (direction) {
+
+            var obj = document.getElementById('introduce');
+            obj.style.opacity = 1;
+            var item_array = [];
+            item_array.push(document.getElementById("introduce_item_0"));
+            item_array.push(document.getElementById("introduce_item_1"));
+            item_array.push(document.getElementById("introduce_item_2"));
+
+            for (var num in item_array) {
+                item_array[num].className += " animated";
+                item_array[num].className += " zoomIn";
+            }
+
+        },
+        offset: '75%'
+    })
 
 
-</div>
+    new Waypoint({
+        element: document.getElementById('expert'),
+        handler: function (direction) {
 
+            var obj = document.getElementById('expert');
+            obj.style.opacity = 1;
+            var item_array = [];
+            item_array.push(document.getElementById("expert_item_0"));
+            item_array.push(document.getElementById("expert_item_1"));
+            item_array.push(document.getElementById("expert_item_2"));
+
+            for (var num in item_array) {
+                item_array[num].className += " animated";
+                item_array[num].className += " zoomIn";
+            }
+
+        },
+        offset: '75%'
+    })
+
+</script>
 </body>
 </html>

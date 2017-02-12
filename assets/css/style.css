@@ -1,0 +1,491 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+    position: relative;
+}
+
+body {
+
+    font-family: 'Lucida Grande', Helvetica, Arial, sans-serif;
+    color: #222;
+}
+
+.service {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+.BannerText {
+    margin: auto;
+    width: 500px;
+    color: #fff;
+    font-size: 40px;
+    /*text-shadow: 2px 2px 4px ;*/
+    padding-top: 150px;
+
+}
+
+.BannerText h2 {
+    /*background-color: hsla(290,60%,60%,0.2);*/
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px #64555c;
+    padding-top: 64px;
+
+}
+
+.BannerText h1 {
+    height: 32px;
+}
+
+.Ptitle {
+    color: #c54c82;
+
+}
+
+.Stitle {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.nav {
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+.bannerPix {
+    width: 960px;
+    height: 550px;
+    display: inline-block;
+    background-size: cover;
+    background-image: url(../images/branch/banner.jpg);
+}
+
+.contact {
+    background-image: url(../images/branch/spabanner0.jpg);
+}
+
+.header {
+    background-color: rgba(255, 255, 255, .8);
+}
+
+.main {
+    margin-top: -20px;
+
+}
+
+nav ul {
+    width: 608px;
+    margin: auto;
+    list-style: none;
+    padding: 30px 0;
+    height: 28px;
+    background-color: transparent;
+}
+
+.front {
+    text-align: center;
+    margin: auto;
+}
+
+nav li {
+    float: right;
+    margin-bottom: 8px;
+}
+
+nav li a {
+    /*display: inline-block;*/
+    text-decoration: none;
+    width: 500px;
+    padding: 0px 40px;
+    color: #222222;
+    text-align: center;
+}
+
+nav li a:hover {
+    color: #c54c82;
+}
+
+.clear {
+    clear: both;
+}
+
+.bar {
+    width: 960px;
+}
+
+.boxGroup {
+
+    text-align: center;
+    margin: auto;
+}
+
+.boxGroup .box {
+    width: 50%;
+    float: left;
+
+}
+
+.bar {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    color: #222222;
+    text-align: center;
+    line-height: 80px;
+}
+
+.boxGroup .pix1 {
+    background-image: url(../images/stonegirl.jpg);
+    width: 480px;
+    height: 350px;
+    background-size: cover;
+}
+
+.boxGroup .pix2 {
+    background-image: url(../images/branch/massage.jpg);
+    width: 480px;
+    height: 350px;
+    background-size: cover;
+}
+
+.boxGroup .pix3 {
+    background-image: url(../images/branch/footcare.jpg);
+    width: 480px;
+    height: 350px;
+    background-size: cover;
+}
+
+.boxGroup .pix4 {
+    background-image: url(../images/branch/nailcare.jpg);
+    width: 480px;
+    height: 350px;
+    background-size: cover;
+}
+
+.holder .item-col1 {
+    width: 960px;
+    height: 350px;
+    background-image: url(../images/branch/pool.jpg);
+}
+
+.placeGroup .item-col1 {
+
+    background-image: none;
+}
+
+.item-col3 {
+    float: left;
+    margin: 0px;
+    background-color: transparent;
+    width: 294px;
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    border: 1px solid transparent;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.item-col3 a {
+    text-decoration: none;
+}
+
+.icon {
+    text-align: center;
+    margin: 20px auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 960px;
+    color: #757575;
+}
+
+.icon a {
+    padding: 40px 15px;
+    font-size: 20px;
+    color: #757575;
+}
+
+.icon a:hover {
+    color: #c54c82;
+}
+
+.footer span {
+    padding: 15px;
+    left: 68px;
+    text-align: left;
+    color: #c54c82;
+
+}
+
+.contacts {
+    background-color: #fff;
+    color: #757575;
+    margin: auto;
+    text-align: center;
+    padding: 80px 0;
+    height: 250px;
+    display: inline-block;
+    width: 960px;
+    overflow: hidden;
+    line-height: 30px;
+
+}
+
+.contacts .item-col3 i {
+    text-align: left;
+    display: inline-block;
+}
+
+.item-col3 .fa {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.AboutPix {
+    width: 100%;
+    height: 550px;
+    display: inline-block;
+    background-size: cover;
+    background-image: url(../images/branch/spa_at_beach.jpg);
+}
+
+.Sbtn {
+    width: 80px;
+    height: 32px;
+    border: 3px solid #c54c82;
+    background-color: transparent;
+    display: inline-block;
+    border-radius: 50px;
+    margin-top: 50px;
+    color: #222;
+    font-size: 8px;
+    text-align: center;
+    line-height: 30px;
+    transition: .5s;
+
+}
+
+.Sbtn:hover {
+    background-color: #c54c82;
+    color: #fff;
+}
+
+.tt1 {
+
+    color: #222222;
+}
+
+h2 {
+    padding: 20px 0;
+}
+
+.xstext {
+    color: #a79a9a;
+
+}
+
+.Stext {
+    font-size: 8px;
+    width: 200px;
+    padding-top: 10px;
+}
+
+.Text1 {
+    padding-top: 15px;
+    text-align: left;
+    margin: auto;
+    line-height: 22px;
+}
+
+.Text2 {
+    text-align: center;
+    padding-top: 17px;
+
+}
+
+.textHr {
+
+    position: relative;
+    width: 105px;
+    height: 100px;
+    text-align: center;
+    left: 200px;
+}
+
+.textHr:before,
+.textHr:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border: 10px solid #f4aeba;
+    -moz-border-radius: 50px 50px 0 50px;
+    border-radius: 50px 50px 0 50px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.textHr:after {
+    left: auto;
+    right: 0;
+    -moz-border-radius: 50px 50px 50px 0;
+    border-radius: 50px 50px 50px 0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 150px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+#contact h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+}
+
+#contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+#contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #4CAF50;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+    background: #43A047;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+    text-align: center;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+    color: #888;
+}
+
+:-moz-placeholder {
+    color: #888;
+}
+
+::-moz-placeholder {
+    color: #888;
+}
+
+:-ms-input-placeholder {
+    color: #888;
+}

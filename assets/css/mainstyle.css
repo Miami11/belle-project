@@ -1,90 +1,624 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 .container {
     width: 960px;
     margin: auto;
     position: relative;
 }
 
-ul{
-    width: 800px;
-    /*height: 100px;*/
-    margin:0px;
-    list-style: none;
-    padding-top: 10px;
+body {
 
+    font-family: '微軟正黑體', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    color: #222;
 }
-li{
-    float: right;
 
-    margin-bottom: 10px 0px;
+.textHr {
+
+    position: relative;
+    width: 105px;
+    height: 100px;
+    text-align: center;
+    left: 325px;
 }
-li:before{
-    content:'';
-    /*height: 2px;*/
-    width: 190px;
+
+.textHr:before,
+.textHr:after {
+    content: "";
     position: absolute;
-    border: 1px solid #fff;
-    top:33px;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border: 10px solid #f4aeba;
+    -moz-border-radius: 50px 50px 0 50px;
+    border-radius: 50px 50px 0 50px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.textHr:after {
+    left: auto;
+    right: 0;
+    -moz-border-radius: 50px 50px 50px 0;
+    border-radius: 50px 50px 50px 0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/*.textHr:before{*/
+/*content:'';*/
+/*!*height: 2px;*!*/
+/*width: 80px;*/
+/*position: absolute;*/
+/*border: 1px solid #c54c82;*/
+/*top:170px;*/
+/*right: 438px;*/
+
+/*}*/
+
+.Btitle {
+    font-size: 45px;
+    margin: 10px;
+    color: #3e3e3e;
+}
+
+.bookingSize {
+    width: 750px;
+}
+
+.header {
+    background-color: rgba(255, 255, 255, .8);
+    text-align: center;
 
 }
 
-li a{
+.main {
+    margin-top: -20px;
+
+}
+
+nav ul {
+    width:100%;
+    margin: auto;
+    list-style: none;
+    padding: 30px 0;
+    height: 28px;
+    background-color: transparent;
+    text-align:center;
+}
+
+.front {
+    text-align: center;
+    margin: auto;
+    position: fixed;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+nav li {
+    margin-bottom: 8px;
+    display:inline-block;
+}
+
+nav li a {
     /*display: inline-block;*/
     text-decoration: none;
     width: 500px;
-    padding: 0px 20px;
-    color: whitesmoke;
+    padding: 0px 40px;
+    color: #222222;
     text-align: center;
 }
 
-li a:hover {
-    content:'';
-    /*height: 2px;*/
-    width: 5px;
-    /*position: absolute;*/
-    border-bottom: 2px solid #fff;
-    top:30px;
-
+nav li a:hover {
+    color: #c54c82;
 }
 
 .banner {
-    background-image: url(spa-pix/banner1.jpg);
+    background-image: url(../images/spagirl.png);
     width: 960px;
-    height: 560px;
+    height: 550px;
     background-size: cover;
 }
 
-.B {
-   margin: auto;
+.flower:before {
+    /*background-image: url(assets/images/jasmine.png);*/
+
+    content: url(../images/jasmine.png);
+
+}
+
+.bookingtitle {
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+}
+
+.BannerText {
+    margin: auto;
     width: 500px;
-    color: #a79ab4;
+    color: #fff;
     font-size: 40px;
-    text-shadow: 2px 2px 4px ;
+    /*text-shadow: 2px 2px 4px ;*/
     padding-top: 150px;
 
 }
-.B h2{
+
+.BannerText h2 {
     /*background-color: hsla(290,60%,60%,0.2);*/
-    color: aliceblue;
+    color: #fff;
     font-size: 20px;
     text-shadow: 1px 1px 2px #64555c;
-    font-family: Arial;
+
 }
-.Btn{
+
+.BannerText h1 {
+    height: 32px;
+}
+
+.Btn {
     width: 150px;
     height: 50px;
-    border: 3px solid lavenderblush;
+    border: 3px solid #ffffff;
     background-color: transparent;
     display: block;
     border-radius: 50px;
     margin-top: 50px;
-    color: white;
+    color: #fff;
     font-size: 20px;
     text-align: center;
     line-height: 50px;
     text-shadow: none;
+    top: -30px;
 
 }
-.Btn:hover{
-    background-color: #64555c;
+
+.SBtn {
+    width: 150px;
+    height: 50px;
+    border: 3px solid #ffffff;
+    background-color: transparent;
+    display: block;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    text-shadow: none;
+    margin: auto;
+}
+
+.SBtn:hover {
+    background-color: #c54c82;
     transition: .5s;
+    color: #fff;
+}
+
+.Btn:hover {
+    background-color: #c54c82;
+    transition: .5s;
+    color: #fff;
+}
+
+.welcome {
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    height: 700px;
+    display: inline-block;
+    width: 960px;
+}
+
+.expert {
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    height: 700px;
+    display: inline-block;
+    width: 960px;
+}
+
+.welcomeGroup {
+    margin: auto;
+    text-align: center;
+
+}
+
+.Ptitle {
+    color: #c54c82;
+
+}
+
+.Stitle {
+    color: black;
+    font-size: 30px;
+}
+
+.Pnumber {
+    color: #6b7386;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.Psub {
+
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 240px;
+}
+
+.welcome .pplimg {
+    width: 328px;
+    vertical-align: top;
+    /*border-bottom: 1px solid #c54c82;*/
+
+}
+
+.expert .pplimg {
+    width: 280px;
+    vertical-align: top;
+}
+
+.pixFrame {
+    height: 240px;
+    width: 294px;
+    overflow: hidden;
+}
+
+.expert .textHr {
+    left: 428px;
+}
+
+.pixFrame2 {
+    height: 260px;
+    width: 260px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.item-col3 {
+    float: left;
+    margin: 0px;
+    background-color: transparent;
+    width: 294px;
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    border: 1px solid transparent;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.item-col3 a {
+    text-decoration: none;
+}
+
+.bb {
+    width: 275px;
+    height: 221px;
+    background-color: rgba(0, 0, 0, .1);
+    border: 1px solid #ffffff;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 10px auto;
+    display: none;
+}
+
+.welcome .item-col3:hover .bb {
+    display: block;
+}
+
+.welcome .item-col3:hover {
+    background-color: rgba(0, 0, 0, .1);
+
+}
+
+
+
+
+
+.smalltext {
+    font-size: 15px;
+    color: #a79a9a;
+    padding-bottom: 20px;
+}
+
+.item-col3:hover .tableGroup h4 {
+    color: #c54c82;
+}
+
+.smalltext2 {
+    font-size: 15px;
+    color: #a79a9a;
+    padding: 20px;
+}
+
+.itemGroup .item {
+    width: 50%;
+    float: left;
+    min-height: 400px;
+
+}
+
+.include {
+    background-color: #FDFDCB;
+}
+
+.itemGroup .pix {
+    background-image: url(../images/ingredient.jpg);
+    width: 480px;
+    height: 400px;
+    background-size: cover;
+}
+
+.itemGroup .txt {
+    text-align: left;
+    margin: auto;
+    line-height: 25px;
+    background-color: #873459;
+    background-size: cover;
+    color: #222222;
+
+}
+
+.halfText {
+    padding: 20px 70px;
+    color: #ffffff;
+    height: 252px;
+}
+
+.itemGroup p {
+    width: 350px;
+    height: 242px;
+}
+
+.tableBtn {
+    width: 150px;
+    height: 50px;
+    border: 3px solid #fff;
+    background-color: transparent;
+    display: inline-block;
+    border-radius: 50px;
+    margin-top: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    transition: .5s;
+
+}
+
+.tableBtn:hover {
+    background-color: #c54c82;
+    color: #fff;
+}
+
+.Sstitle {
+    color: #555555;
+    font-size: 20px;
+}
+
+.environment {
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.place .textHr {
+    left: 428px;
+}
+
+.place {
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    width: 960px;
+}
+
+.place h5 {
+    padding: 30px;
+}
+
+.massage {
+    width: 0;
+    height: 0;
+    border: 200px solid transparent;
+    border-bottom-color: rgba(0, 0, 0, .2);
+    position: relative;
+    top: -200px;
+}
+
+.massage:after {
+    content: '';
+    position: absolute;
+    left: -200px;
+    top: 200px;
+    width: 0;
+    height: 0;
+    border: 200px solid transparent;
+    border-top-color: rgba(0, 0, 0, .2);
+}
+
+
+
+.service {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+
+}
+
+.content {
+    text-align: center;
+    display: inline-block;
+}
+
+.bottom {
+    width: 960px;
+    height: 335px;
+    color: #222222;
+    background-image: url(../images/sub3.jpg);
+    background-size: cover;
+    text-align: center;
+    margin: auto;
+    display: block;
+    line-height: 80px;
+}
+
+.massageGroup{
+    width: 740px;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+
+}
+
+
+.massageGroup .bb {
+    width: 740px;
+    height: 270px;
+    background-color: rgba(0, 0, 0, .1);
+    border: 1px solid #ffffff;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 30px auto;
+    display: none;
+}
+
+.bottom .massageGroup:hover .bb {
+    display: block;
+}
+
+
+
+.xstext {
+    color: #a79a9a;
+    font-size: 8px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footerContent {
+    float: left;
+    width: 960px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.half {
+    width: 50%;
+    float: left;
+
+}
+
+
+
+.Tbox {
+    width: 450px;
+    padding: 10px;
+}
+
+.list-group .item {
+    float: left;
+    height: 310px;
+    margin: 10px;
+
+}
+
+.item31 {
+    width: 300px;
+    text-align: center;
+    line-height: 300px;
+}
+
+.item32 {
+    width: 600px;
+    text-align: center;
+    line-height: 300px;
+}
+
+.halfText span {
+    font-weight: bold;
+    padding: 10px 0;
+
+}
+
+.icon {
+    text-align: center;
+    margin: 20px auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 960px;
+    color: #757575;
+}
+
+.icon a {
+    padding: 40px 15px;
+    font-size: 20px;
+    color: #757575;
+}
+
+.icon a:hover {
+    color: #c54c82;
+}
+
+.footer span {
+    padding: 15px;
+    left: 68px;
+    text-align: left;
+    color: #c54c82;
+
+}
+
+.contacts {
+    background-color: #fff;
+    color: #757575;
+    margin: auto;
+    text-align: center;
+    padding: 80px 40px 0 0;
+    height: 250px;
+    display: inline-block;
+    width: 960px;
+    overflow: hidden;
+    line-height: 30px;
+
+}
+
+.contacts .item-col3 i {
+    text-align: left;
+    display: inline-block;
+}
+
+.item-col3 .fa {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+#introduce {
+    opacity: 0;
+}
+#expert{
+    opacity: 0;
 }
