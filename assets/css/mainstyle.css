@@ -79,11 +79,10 @@ body {
 .header {
     background-color: rgba(255, 255, 255, .8);
     text-align: center;
-
 }
 
 .main {
-    margin-top: -20px;
+    margin-top: -15px;
 
 }
 
@@ -102,6 +101,7 @@ nav ul {
     margin: auto;
     position: fixed;
     background-color: rgba(255, 255, 255, .8);
+    width: 960px;
 }
 
 nav li {
@@ -323,8 +323,6 @@ nav li a:hover {
     background-color: rgba(0, 0, 0, .1);
 
 }
-
-
 
 
 

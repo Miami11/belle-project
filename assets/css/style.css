@@ -12,7 +12,7 @@
 
 body {
 
-    font-family: 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-family: '微軟正黑體', 'Lucida Grande', Helvetica, Arial, sans-serif;
     color: #222;
 }
 
@@ -57,11 +57,7 @@ body {
 
 }
 
-.nav {
-    text-align: center;
-    margin: auto;
-    color: white;
-}
+
 
 .bannerPix {
     width: 960px;
@@ -73,34 +69,57 @@ body {
 
 .contact {
     background-image: url(../images/branch/spabanner0.jpg);
+
+}
+
+.about{
+    background-image: url(../images/branch/aboutus.jpg);
+    height: 550px;
 }
 
 .header {
-    background-color: rgba(255, 255, 255, .8);
+    text-align: center;
+    margin: auto;
+}
+.header .headerText{
+    width: 600px;
+    margin: auto;
+    line-height: 30px;
+    padding: 150px 0;
+}
+.headerText p{
+    color: seashell;
+    text-align: left;
 }
 
+
+
 .main {
-    margin-top: -20px;
+    margin-top: -10px;
 
 }
 
 nav ul {
-    width: 608px;
+    width:100%;
     margin: auto;
     list-style: none;
-    padding: 30px 0;
-    height: 28px;
+    padding: 20px 0;
+
     background-color: transparent;
+    text-align:center;
 }
 
 .front {
     text-align: center;
     margin: auto;
+    position: fixed;
+    background-color: rgba(255, 255, 255, .8);
+    width: 960px;
 }
 
 nav li {
-    float: right;
     margin-bottom: 8px;
+    display:inline-block;
 }
 
 nav li a {
@@ -116,6 +135,11 @@ nav li a:hover {
     color: #c54c82;
 }
 
+.nav {
+    text-align: center;
+    margin: auto;
+    color: white;
+}
 .clear {
     clear: both;
 }
@@ -197,8 +221,44 @@ nav li a:hover {
     overflow: hidden;
 }
 
+.item-col4 {
+    float: left;
+    margin: 0px;
+    background-color: #c54c82;
+    width: 240px;
+    height: 220px;
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    overflow: hidden;
+}
+
 .item-col3 a {
     text-decoration: none;
+}
+
+
+.expert .textHr {
+    left: 428px;
+}
+
+.pixFrame2 {
+    height: 260px;
+    width: 260px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.smalltext {
+    font-size: 15px;
+    color: #a79a9a;
+    padding-bottom: 20px;
+}
+
+
+.expert .pplimg {
+    width: 280px;
+    vertical-align: top;
 }
 
 .icon {
@@ -259,7 +319,7 @@ nav li a:hover {
     height: 550px;
     display: inline-block;
     background-size: cover;
-    background-image: url(../images/branch/spa_at_beach.jpg);
+    background-image: url(../images/branch/spaatwood.jpg);
 }
 
 .Sbtn {
@@ -292,9 +352,36 @@ h2 {
     padding: 20px 0;
 }
 
-.xstext {
+.Abox{
+    text-align: center;
+}
+
+.Abox h2{
+    font-size: 60px;
+    line-height: 100px;
+}
+.Abox h4{
+   color: #222222;
+}
+.box .xstext {
     color: #a79a9a;
 
+}
+
+.expert {
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    height: 1000px;
+    display: inline-block;
+    width: 960px;
+}
+hr{
+    color: #64555c;
+}
+.item-col3 .xstext {
+    color: #a79a9a;
+    font-size: 8px;
 }
 
 .Stext {
@@ -354,6 +441,24 @@ h2 {
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
 }
+
+
+.Ptitle {
+    color: #c54c82;
+
+}
+
+.Btitle {
+    font-size: 45px;
+    margin: 10px;
+    color: #3e3e3e;
+}
+
+.Sstitle {
+    color: #555555;
+    font-size: 20px;
+}
+
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
 * {
